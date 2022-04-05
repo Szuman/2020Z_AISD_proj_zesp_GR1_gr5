@@ -47,3 +47,15 @@ Do programu może zostać przekazana lista zawierająca wspołrzędne pacjentów
 * współrzędne pacjenta (punkt początkowy) może być dowolnym miejscem w obszarze ograniczonym przez współrzędne pozostałych punktów na mapie;
 * obszar / mapa jest ograniczony przez najbardziej oddalone punkty (jest to najmniejszy zbiór wypukły zawierający w sobie wszystkie punkty);
 * nie opiekujemy się pacjentami poza granicami kraju.
+
+## Build
+
+```bash
+mvn clean package
+```
+
+## Run
+
+```bash
+java -jar target/Projekt_zespolowy-1.0-SNAPSHOT.jar
+```
